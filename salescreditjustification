@@ -2,7 +2,7 @@
 <html lang="en">
   <head><meta charset="UTF-8"><title> anima-tion.html</title>
   
-    <style type = "text/css"> @keyframes anim { 0%{left: 0px; top; 0p;} 
+    <style type = "text/css"> @keyframes anim { 0%{left: 0px; top: 0px;} 
     25% {left: 100px; top: 0px;} 
     50% {left: 100px; top: 100px;} 
     75% {left: 0px; top: 100px;} 
@@ -11,7 +11,7 @@
     @-wbit.keyframes anim { 0%  {left: 0px; top: 0px;} 
     25% {left: 100px; top: 0px;} 
     50% {left: 100px; top: 100px;} 
-    75% {left: 100px; top: 100px; 
+    75% {left: 100px; top: 100px;}
     100% {left: 0px; top: 100px;}} 
     
     @moz-keyframes anim { 0% {left: 0px; top: 0px;} 
@@ -24,14 +24,10 @@
     25% {left: 100px; top: 0px;} 
     50% {left: 100; top: 100px;} 
     75% {left: 0px; top: 100px;} 
-    100% {left: 0px; top: 0px;} } 
+    100% {left: 0px; top: 0px;}} 
     
-    #box { position: absolute; 
-    border: 1px solid black; 
-    -webit-animation: anim 5s infintie; 
-    -moz-animation: anim 5s linear infinite; 
-    -0-animation: anim 
-    5s linear infinite; animation: anim 5s linear infinite; }
+    #box { position: absolute; border: 1px solid black; -webit-animation: anim 5s infintie; 
+      -moz-animation: anim 5s linear infinite; -0-animation: anim 5s linear infinite; animation: anim 5s linear infinite; }
   
     </style>
   </head>
